@@ -1,0 +1,22 @@
+<head>
+  <title>image uploads</title>
+</head>
+
+<body>
+    {{>main}}
+    {{>imagesSubmitted}}
+  </body>
+
+<template name = "main">
+<h1>Upload a image</h1>
+<input type = "file" id = "myFileInput">
+<p></p>
+</template>
+
+<template name = "imagesSubmitted">
+
+{{#each images}}
+<img src="{{this.url}}" class = "previewImage" alt="thumbnail">
+{{/each}}
+
+</template>
