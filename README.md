@@ -1,4 +1,4 @@
-Simple upload/preview images using meteor's standard filesystem
+Simple upload/preview images in Meteor using Collection FS
 
 
 Dependencies -
